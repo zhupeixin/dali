@@ -35,7 +35,52 @@ angular.module('starter', ['ionic','starter.controllers','starter.services'])
         url: '/first',
         templateUrl: 'templates/first.html',
         controller: "firstCtrl"
-      });
+      })
+        .state('wall-1',{
+            url: '/wall-1',
+            templateUrl: 'templates/wall-1.html',
+            controller: "wall-1Ctrl"
+        })
+        .state('wall_1_readmore1',{
+            url: '/wall_1_readmore1',
+            templateUrl: 'templates/wall_1_readmore1.html',
+            controller: "wall_1_readmore1Ctrl"
+        })
+        .state('wall_1_readmore2',{
+            url: '/wall_1_readmore2',
+            templateUrl: 'templates/wall_1_readmore2.html',
+            controller: "wall_1_readmore2Ctrl"
+        })
+        .state('hall',{
+            url: '/hall',
+            templateUrl: 'templates/hall.html',
+            controller: "hallCtrl"
+        })
+        .state('andi',{
+            url: '/andi',
+            templateUrl: 'templates/andi.html',
+            controller: "andiCtrl"
+        })
+        .state('weilian',{
+            url: '/weilian',
+            templateUrl: 'templates/weilian.html',
+            controller: "weilianCtrl"
+        })
+        .state('rang',{
+            url: '/rang',
+            templateUrl: 'templates/rang.html',
+            controller: "rangCtrl"
+        })
+        .state('yuese',{
+            url: '/yuese',
+            templateUrl: 'templates/yuese.html',
+            controller: "yueseCtrl"
+        })
+        .state('door',{
+            url: '/door',
+            templateUrl: 'templates/door.html',
+            controller: "doorCtrl"
+        });
 
 
     //当没有状态匹配到时默认显示的状态

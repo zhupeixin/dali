@@ -5,3 +5,34 @@
 /*大厅外*/
 #div_outside{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
 #outside{width: 300%;height: 100%;position: absolute;top: 0;left: -100%;}
+#enter{width: 12%;height: 12%;position: absolute;top: 69%;left: 44%;display: none;}
+/*大门*/
+#door{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+#goHallway{width: 84%;height: 55%;position: absolute;top: 22%;left: 8%;}
+/*墙1*/
+#wall_1_div{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+#wall_1{width: 200%;height: 100%;position: absolute;top: 0;left: 0;}
+#readmore_1{width: 30%;height: 10%;position: absolute;bottom: 20%;right: 6%;}
+#readmore_2{width: 30%;height: 10%;position: absolute;bottom: 20%;right: 6%;display: none;}
+#gohall{width: 40%;height: 18%;position: absolute;bottom: 0;right: 0;display: none}
+/*图文页1*/
+.shadow{width: 42.77%;height: 26.43%;position: absolute;top: 0;left: 0;}
+.goback{width: 10%;height: 5.89%;position: absolute;top: 8%;left: 8%;}
+.wall_content{width: 100%;height: 80%;padding-left: 10%;padding-right: 10%; position: absolute;bottom: 0;left: 0;overflow-y: auto;font-size: 1.1em;line-height: 1.3em}
+.wall_content p{text-indent: 2em;}
+/*馆外hall*/
+#hall{width: 500%;height: 100%;position: absolute;top: 0;left: 0;}
+#hall_1{width: 76%;height: 80%;position: absolute;top: 0;left: 12%;}
+#hall_2{width: 76%;height: 80%;position:absolute;top: 0;left: 12%;display: none}
+#hall_3{width: 76%;height: 80%;position: absolute;top: 0;left: 12%;display: none}
+#hall_4{width: 76%;height: 80%;position: absolute;top: 0;left: 12%;display: none}
+#hall_5{width: 76%;height: 80%;position: absolute;top: 0;left: 12%;display: none}
+/*安迪*/
+.backbt{width: 20%;height: 12%;position: absolute;bottom: 4%;left: 45%;}
+#main_andi{width: 400%;height: 100%;position: absolute;top: 0;left: 0;}
+/*威廉*/
+#main_weilian{width: 400%;height: 100%;position: absolute;top: 0;left: 0;}
+/*让*/
+#main_rang{width: 400%;height: 100%;position: absolute;top: 0;left: 0;}
+/*约瑟夫*/
+#main_yuese{width: 400%;height: 100%;position: absolute;top: 0;left: 0;}
