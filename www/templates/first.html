@@ -1,6 +1,10 @@
-<ion-view>
-  <ion-content>
-    这是跳转页面
-    <button ng-click="goBackStart()">回首页</button>
+<ion-view scroll="no">
+  <!--<ion-content direction="x">-->
+      <ion-content scroll="false">
+      <div id="div_outside" on-swipe-right="onSwipeRight()" on-swipe-left="onSwipeLeft()">
+      <center>
+          <img id="outside" src="img/outside.jpg" alt=""/>
+      </center>
+      </div>
   </ion-content>
 </ion-view>
