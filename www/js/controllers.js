@@ -12,13 +12,17 @@ angular.module('starter.controllers', [])
         $scope.onSwipeRight = function(){
             $nowSide = parseInt($("#outside").css("left"));
             $screen =parseInt(window.screen.width);
-            $nowSide-=$screen;
-            $("#outside").css("left",$nowSide+"px");
+            if($nowSide>-2*$screen){
+                $nowSide-=$screen;
+                $("#outside").css("left",$nowSide+"px");
+            }
         };
         $scope.onSwipeLeft = function(){
             $nowSide = parseInt($("#outside").css("left"));
             $screen =parseInt(window.screen.width);
-            $nowSide+=$screen;
-            $("#outside").css("left",$nowSide+"px");
+            if($nowSide<0){
+                $nowSide+=$screen;
+                $("#outside").css("left",$nowSide+"px");
+            }
         }
   });
