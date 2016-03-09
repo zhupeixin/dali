@@ -33,6 +33,8 @@ angular.module('starter', ['ionic','starter.controllers','starter.services'])
       })
       .state('first',{
         url: '/first',
+            //cache刷新页面数据
+            cache:'false',
         templateUrl: 'templates/first.html',
         controller: "firstCtrl"
       })
@@ -75,6 +77,171 @@ angular.module('starter', ['ionic','starter.controllers','starter.services'])
             url: '/yuese',
             templateUrl: 'templates/yuese.html',
             controller: "yueseCtrl"
+        })
+        .state('andi_text',{
+            url: '/andi_text',
+            templateUrl: 'templates/andi_text.html',
+            controller: "andi_textCtrl"
+        })
+        .state('weilian_text',{
+            url: '/weilian_text',
+            templateUrl: 'templates/weilian_text.html',
+            controller: "weilian_textCtrl"
+        })
+        .state('rang_text',{
+            url: '/rang_text',
+            templateUrl: 'templates/rang_text.html',
+            controller: "rang_textCtrl"
+        })
+        .state('yuese_text',{
+            url: '/yuese_text',
+            templateUrl: 'templates/yuese_text.html',
+            controller: "yuese_textCtrl"
+        })
+        .state('ziliao',{
+            url: '/ziliao',
+            templateUrl: 'templates/ziliao.html',
+            controller: "ziliaoCtrl"
+        })
+        .state('ziliao_1',{
+            url: '/ziliao_1',
+            templateUrl: 'templates/ziliao_1.html',
+            controller: "ziliao_1Ctrl"
+        })
+        .state('ziliao_1_1',{
+            url: '/ziliao_1_1',
+            templateUrl: 'templates/ziliao_1_1.html',
+            controller: "ziliao_1_1Ctrl"
+        })
+        .state('ziliao_1_2',{
+            url: '/ziliao_1_2',
+            templateUrl: 'templates/ziliao_1_2.html',
+            controller: "ziliao_1_2Ctrl"
+        })
+        .state('ziliao_1_3',{
+            url: '/ziliao_1_3',
+            templateUrl: 'templates/ziliao_1_3.html',
+            controller: "ziliao_1_3Ctrl"
+        })
+        .state('ziliao_1_4',{
+            url: '/ziliao_1_4',
+            templateUrl: 'templates/ziliao_1_4.html',
+            controller: "ziliao_1_4Ctrl"
+        })
+        .state('ziliao_1_5',{
+            url: '/ziliao_1_5',
+            templateUrl: 'templates/ziliao_1_5.html',
+            controller: "ziliao_1_5Ctrl"
+        })
+        .state('ziliao_1_6',{
+            url: '/ziliao_1_6',
+            templateUrl: 'templates/ziliao_1_6.html',
+            controller: "ziliao_1_6Ctrl"
+        })
+        .state('ziliao_1_7',{
+            url: '/ziliao_1_7',
+            templateUrl: 'templates/ziliao_1_7.html',
+            controller: "ziliao_1_7Ctrl"
+        })
+        .state('ziliao_1_8',{
+            url: '/ziliao_1_8',
+            templateUrl: 'templates/ziliao_1_8.html',
+            controller: "ziliao_1_8Ctrl"
+        })
+        .state('ziliao_1_9',{
+            url: '/ziliao_1_9',
+            templateUrl: 'templates/ziliao_1_9.html',
+            controller: "ziliao_1_9Ctrl"
+        })
+        .state('ziliao_2',{
+            url: '/ziliao_2',
+            templateUrl: 'templates/ziliao_2.html',
+            controller: "ziliao_2Ctrl"
+        })
+        .state('ziliao_2_1',{
+            url: '/ziliao_2_1',
+            templateUrl: 'templates/ziliao_2_1.html',
+            controller: "ziliao_2_1Ctrl"
+        })
+        .state('ziliao_2_2',{
+            url: '/ziliao_2_2',
+            templateUrl: 'templates/ziliao_2_2.html',
+            controller: "ziliao_2_2Ctrl"
+        })
+        .state('ziliao_3',{
+            url: '/ziliao_3',
+            templateUrl: 'templates/ziliao_3.html',
+            controller: "ziliao_3Ctrl"
+        })
+        .state('ziliao_3_1',{
+            url: '/ziliao_3_1',
+            templateUrl: 'templates/ziliao_3_1.html',
+            controller: "ziliao_3_1Ctrl"
+        })
+        .state('ziliao_3_2',{
+            url: '/ziliao_3_2',
+            templateUrl: 'templates/ziliao_3_2.html',
+            controller: "ziliao_3_2Ctrl"
+        })
+        .state('ziliao_3_3',{
+            url: '/ziliao_3_3',
+            templateUrl: 'templates/ziliao_3_3.html',
+            controller: "ziliao_3_3Ctrl"
+        })
+        .state('ziliao_3_4',{
+            url: '/ziliao_3_4',
+            templateUrl: 'templates/ziliao_3_4.html',
+            controller: "ziliao_3_4Ctrl"
+        })
+        .state('ziliao_3_5',{
+            url: '/ziliao_3_5',
+            templateUrl: 'templates/ziliao_3_5.html',
+            controller: "ziliao_3_5Ctrl"
+        })
+        .state('ziliao_3_6',{
+            url: '/ziliao_3_6',
+            templateUrl: 'templates/ziliao_3_6.html',
+            controller: "ziliao_3_6Ctrl"
+        })
+        .state('ziliao_3_7',{
+            url: '/ziliao_3_7',
+            templateUrl: 'templates/ziliao_3_7.html',
+            controller: "ziliao_3_7Ctrl"
+        })
+        .state('ziliao_4',{
+            url: '/ziliao_4',
+            templateUrl: 'templates/ziliao_4.html',
+            controller: "ziliao_4Ctrl"
+        })
+        .state('ziliao_4_1',{
+            url: '/ziliao_4_1',
+            templateUrl: 'templates/ziliao_4_1.html',
+            controller: "ziliao_4_1Ctrl"
+        })
+        .state('ziliao_4_2',{
+            url: '/ziliao_4_2',
+            templateUrl: 'templates/ziliao_4_2.html',
+            controller: "ziliao_4_2Ctrl"
+        })
+        .state('ziliao_4_3',{
+            url: '/ziliao_4_3',
+            templateUrl: 'templates/ziliao_4_3.html',
+            controller: "ziliao_4_3Ctrl"
+        })
+        .state('ziliao_4_4',{
+            url: '/ziliao_4_4',
+            templateUrl: 'templates/ziliao_4_4.html',
+            controller: "ziliao_4_4Ctrl"
+        })
+        .state('ziliao_4_5',{
+            url: '/ziliao_4_5',
+            templateUrl: 'templates/ziliao_4_5.html',
+            controller: "ziliao_4_5Ctrl"
+        })
+        .state('show_photo',{
+            url: '/show_photo',
+            templateUrl: 'templates/show_photo.html',
+            controller: "show_photoCtrl"
         })
         .state('door',{
             url: '/door',

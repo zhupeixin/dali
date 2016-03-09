@@ -27,12 +27,86 @@
 #hall_3{width: 76%;height: 80%;position: absolute;top: 0;left: 12%;display: none}
 #hall_4{width: 76%;height: 80%;position: absolute;top: 0;left: 12%;display: none}
 #hall_5{width: 76%;height: 80%;position: absolute;top: 0;left: 12%;display: none}
+/*commen文件图标*/
+.file{width: 13%;height: 10%;position: absolute;top: 5%;left: 4%;}
 /*安迪*/
 .backbt{width: 20%;height: 12%;position: absolute;bottom: 4%;left: 45%;}
 #main_andi{width: 400%;height: 100%;position: absolute;top: 0;left: 0;}
+#andi_screen_1{display: block;}
+#andi_1{width: 23.60%;height: 26.27%;position: absolute;top: 45%;left:3%;}
+#andi_2{width: 33.60%;height: 17.87%;position: absolute;top: 49%;left:36%;}
+#andi_3{width: 20.24%;height: 22.87%;position: absolute;top: 45%;right: 0;}
+#andi_screen_2{display: none;}
+#andi_4{width: 13.60%;height: 28.27%;position: absolute;top: 42%;left:0;}
+#andi_5{width: 33.60%;height: 30.87%;position: absolute;top: 42%;left:36%;}
+#andi_screen_3{display: none;}
+#andi_6{width: 48.01%;height: 25.87%;position: absolute;top: 45%;left: 8%;}
+#andi_7{width: 25.83%;height: 22.87%;position: absolute;top: 45%;right: 0;}
+#andi_screen_4{display: none;}
+#andi_8{width: 18.43%;height: 20.00%;position: absolute;top: 45%;left: 28%;}
+#andi_9{width: 43.61%;height: 22.87%;position: absolute;top: 43%;right: 0;}
 /*威廉*/
+/*调试用-》图片位置*/
+/*.click{background-color:#003eff; opacity: 0.5;}*/
 #main_weilian{width: 400%;height: 100%;position: absolute;top: 0;left: 0;}
+#weilian_screen_1{display: block;}
+#weilian_1{width: 19.66%;height: 21.4%;position: absolute;top: 45%;left:31%;}
+#weilian_2{width: 16.66%;height: 26%;position: absolute;top: 43%;right: 0;}
+#weilian_screen_2{display: none;}
+#weilian_3{width: 13.60%;height: 28.27%;position: absolute;top: 42%;left:0;}
+#weilian_4{width: 48.7%;height: 35%;position: absolute;top: 40%;right: 0;}
+#weilian_screen_3{display: none;}
+#weilian_5{width: 33.60%;height: 30.87%;position: absolute;top: 42%;left:36%;}
+#weilian_6{width: 12.01%;height: 29.87%;position: absolute;top: 42%;right: 0;}
+#weilian_screen_4{display: none;}
+#weilian_7{width: 13.66%;height: 24%;position: absolute;top: 45%;left: 0;}
+#weilian_8{width: 31.33%;height: 17.4%;position: absolute;top: 48.6%;left: 27.33%;}
+#weilian_9{width: 24%;height: 28%;position: absolute;top: 42.6%;left: 69%;}
 /*让*/
 #main_rang{width: 400%;height: 100%;position: absolute;top: 0;left: 0;}
+#rang_screen_1{display: block;}
+#rang_1{width: 23.66%;height: 28.8%;position: absolute;top: 44.2%;left:4.33%;}
+#rang_2{width: 20%;height: 32.4%;position: absolute;top: 44.8%;left: 42%;}
+#rang_3a{width: 16.66%;height: 48%;position: absolute;top: 40.5%;right:0;}
+#rang_screen_2{display: none;}
+#rang_3b{width: 19.60%;height: 48%;position: absolute;top: 42%;left:0;}
+#rang_4{width: 31.7%;height: 30%;position: absolute;top: 40%;left: 38.5%;}
+#rang_screen_3{display: none;}
+#rang_5{width: 38.60%;height: 30.87%;position: absolute;top: 42%;left:12%;}
+#rang_6{width: 17.01%;height: 45.87%;position: absolute;bottom:4%;right: 0;}
+#rang_screen_4{display: none;}
+#rang_7{width: 16.66%;height: 30%;position: absolute;bottom: 6%;left: 0;}
+#rang_8{width: 21.33%;height: 22.4%;position: absolute;top: 40.6%;left: 27.33%;}
+#rang_9{width: 38%;height: 26%;position: absolute;top: 42.6%;right: 0;}
 /*约瑟夫*/
 #main_yuese{width: 400%;height: 100%;position: absolute;top: 0;left: 0;}
+#yuese_screen_1{display: block;}
+#yuese_1{width: 23.66%;height: 26.8%;position: absolute;top: 44.2%;left:4.33%;}
+#yuese_2{width: 32%;height: 18.4%;position: absolute;top: 48.8%;left: 36%;}
+#yuese_3a{width: 4.66%;height: 30%;position: absolute;top: 46.5%;right:0;}
+#yuese_screen_2{display: none;}
+#yuese_3b{width: 22.60%;height: 28%;position: absolute;top: 46%;left:0;}
+#yuese_4{width: 28.7%;height: 26%;position: absolute;top: 44%;left: 42.5%;}
+#yuese_screen_3{display: none;}
+#yuese_5{width: 48.60%;height: 22.87%;position: absolute;top: 44%;left:8%;}
+#yuese_6{width: 27.01%;height: 27.87%;position: absolute;top:44%;right:5%;}
+#yuese_screen_4{display: none;}
+#yuese_7{width: 76.66%;height: 27%;position: absolute;bottom: 10%;left: 15%;}
+/*资料库*/
+#bj_ziliao{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+#text_1{width: 87.31%;height: 13.24%;position: absolute;left: 6.345%;top: 18.37%;}
+#text_2{width: 87.31%;height: 13.24%;position: absolute;left: 6.345%;top: 36.22%;}
+#text_3{width: 87.31%;height: 13.24%;position: absolute;left: 6.345%;top: 54.81%;}
+#text_4{width: 87.31%;height: 13.24%;position: absolute;left: 6.345%;top: 72.32%;}
+/*目录页*/
+.text_content{width: 100%;height: 84.32%;position: absolute;top: 15.68%;left: 0;overflow-y: auto;}
+.text_content img{width: 87.31%;height: 12.5%;margin: 2% 6.345%;}
+#text_content_1{width: 87.31%;height: 14.5%;margin-left: 6.345%;margin-top: 28%;}
+#text_content_2{width: 87.31%;height: 14.5%;margin-left: 6.345%;margin-top: 15%;}
+.content_img{width: 100%;height: auto;margin: 2% 0;}
+/*视频页*/
+.video_content{width: 100%;height: 80%;padding-left: 5%;padding-right: 5%; position: absolute;bottom: 0;left: 0;}
+.video{width: 100%;height: 45%;margin: 2% 0;}
+/*图片展示页*/
+.bj_443A38{width: 100%;height: 105%;position: absolute;top: 0;left: 0;}
+#screen_photo{width: 91.85%;height: 40.86%;position: absolute;top: 27.57%;left: 4.075%;border: 5px solid #ffffff}
