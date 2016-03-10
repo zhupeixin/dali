@@ -8,7 +8,10 @@ angular.module('starter.controllers', [])
 
 .controller('firstCtrl',function ($scope ,$state) {
     $scope.goDoor = function() {
-      $state.go('door');
+        ////延时设置
+        //var t = setTimeout(function(){$state.go('door');},800);
+        //var screen =parseInt(window.screen.width);
+        //$("#outside").css("width",1.5*screen+"px").css("left","-60%").css("transition","left 0.7s");
     };
         $scope.onSwipeRight = function(){
             var nowSide = parseInt($("#outside").css("left"));
@@ -49,6 +52,7 @@ angular.module('starter.controllers', [])
     $scope.goHallway = function() {
         $state.go('wall-1');
     }
+
 })
 
 .controller('wall-1Ctrl', function($scope, $state) {
