@@ -8,10 +8,7 @@ angular.module('starter.controllers', [])
 
 .controller('firstCtrl',function ($scope ,$state) {
     $scope.goDoor = function() {
-        ////延时设置
-        //var t = setTimeout(function(){$state.go('door');},800);
-        //var screen =parseInt(window.screen.width);
-        //$("#outside").css("width",1.5*screen+"px").css("left","-60%").css("transition","left 0.7s");
+        $state.go('door');
     };
         $scope.onSwipeRight = function(){
             var nowSide = parseInt($("#outside").css("left"));
