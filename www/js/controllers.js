@@ -16,12 +16,13 @@ angular.module('starter.controllers', [])
             var now = Math.abs(parseInt(nowSide/screen));
             if(now > 0){
                 $("#outside").css("left",(-screen*(now-1))+"px").css("transition","left 0.7s");
+                if(nowSide==(-2*screen)){
+                    $("#enter").css("display","block");
+                }else{
+                    $("#enter").css("display","none");
+                }
             }
-            if($nowSide==-$screen){
-                $("#enter").css("display","block");
-            }else{
-                $("#enter").css("display","none");
-            }
+
         };
         $scope.onSwipeLeft = function(){
             var nowSide = parseInt($("#outside").css("left"));
@@ -29,20 +30,14 @@ angular.module('starter.controllers', [])
             var now = Math.abs(parseInt(nowSide/screen))+2;
             if(now<=3){
                 $("#outside").css("left",(-screen*(now-1))+"px").css("transition","left 0.7s");
+                if(nowSide==0){
+                    $("#enter").css("display","block");
+                }else{
+                    $("#enter").css("display","none");
+                }
             }
-            if($nowSide==-$screen){
-                $("#enter").css("display","block");
-            }else{
-                $("#enter").css("display","none");
-            }
+
         };
-        $nowSide = parseInt($("#outside").css("left"));
-        $screen =parseInt(window.screen.width);
-        if($nowSide==-$screen){
-            $("#enter").css("display","block");
-        }else{
-            $("#enter").css("display","none");
-        }
   })
 
 .controller('doorCtrl', function($scope, $state) {
