@@ -5,7 +5,7 @@
 /*大厅外*/
 #div_outside{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
 #outside{width: 300%;height: 100%;position: absolute;top: 0;left: -100%;}
-#enter{width: 30%;height: 12%;position: absolute;top: 69%;left: 35%;background-color: red;}
+#enter{width: 30%;height: 12%;position: absolute;top: 69%;left: 35%;}
 /*大门*/
 #door{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
 #goHallway{width: 84%;height: 55%;position: absolute;top: 22%;left: 8%;}

@@ -12,7 +12,7 @@ angular.module('starter.controllers', [])
     };
         $scope.onSwipeRight = function(){
             var nowSide = parseInt($("#outside").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen));
             if(now > 0){
                 $("#outside").css("left",(-screen*(now-1))+"px").css("transition","left 0.7s");
@@ -26,7 +26,7 @@ angular.module('starter.controllers', [])
         };
         $scope.onSwipeLeft = function(){
             var nowSide = parseInt($("#outside").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen))+2;
             if(now<=3){
                 $("#outside").css("left",(-screen*(now-1))+"px").css("transition","left 0.7s");
@@ -59,7 +59,7 @@ angular.module('starter.controllers', [])
         };
         $scope.wall_1Right = function(){
             var nowSide = parseInt($("#wall_1").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen));
             if(now > 0){
                 $("#wall_1").css("left",(-screen*(now-1))+"px").css("transition","left 0.7s");
@@ -69,7 +69,7 @@ angular.module('starter.controllers', [])
         };
         $scope.wall_1Left = function(){
             var nowSide = parseInt($("#wall_1").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen))+2;
             if(now<=2){
                 $("#wall_1").css("left",(-screen*(now-1))+"px").css("transition","left 0.7s");
@@ -112,7 +112,7 @@ angular.module('starter.controllers', [])
         var count = 1;
         $scope.hallRight = function(){
             var nowSide = parseInt($("#hall").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen));
             if(now > 0){
                 $("#hall").css("left",(-screen*(now-1))+"px").css("transition","left 0.7s");
@@ -127,7 +127,7 @@ angular.module('starter.controllers', [])
         };
         $scope.hallLeft = function(){
             var nowSide = parseInt($("#hall").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen))+2;
             if(now<=5){
                 $("#hall").css("left",(-screen*(now-1))+"px").css("transition","left 0.7s");
@@ -158,7 +158,7 @@ angular.module('starter.controllers', [])
 
         $scope.andiRight = function(){
             var nowSide = parseInt($("#main_andi").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen));
             if(now > 0){
                 $("#back_andi,#file_andi").css("display","none");
@@ -177,7 +177,7 @@ angular.module('starter.controllers', [])
         };
         $scope.andiLeft = function(){
             var nowSide = parseInt($("#main_andi").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen))+2;
             $("#andi_screen_1,#andi_screen_2,#andi_screen_3,#andi_screen_4").css("display","none");
             if(now<=4){
@@ -212,7 +212,7 @@ angular.module('starter.controllers', [])
         });
         $scope.weilianRight = function(){
             var nowSide = parseInt($("#main_weilian").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen));
             $("#weilian_screen_2,#weilian_screen_3,#weilian_screen_4").css("display","none");
             if(now > 0){
@@ -231,7 +231,7 @@ angular.module('starter.controllers', [])
         };
         $scope.weilianLeft = function(){
             var nowSide = parseInt($("#main_weilian").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen))+2;
             if(now<=4){
                 $("#main_weilian").css("left",(-screen*(now-1))+"px").css("transition","left 1s");
@@ -266,7 +266,7 @@ angular.module('starter.controllers', [])
         });
     $scope.rangRight = function(){
         var nowSide = parseInt($("#main_rang").css("left"));
-        var screen =parseInt(window.screen.width);
+        var screen =parseInt(document.body.scrollWidth);
         var now = Math.abs(parseInt(nowSide/screen));
         $("#rang_screen_2,#rang_screen_3,#rang_screen_4").css("display","none");
         if(now > 0){
@@ -285,7 +285,7 @@ angular.module('starter.controllers', [])
     };
     $scope.rangLeft = function(){
         var nowSide = parseInt($("#main_rang").css("left"));
-        var screen =parseInt(window.screen.width);
+        var screen =parseInt(document.body.scrollWidth);
         var now = Math.abs(parseInt(nowSide/screen))+2;
         if(now<=4){
             $("#main_rang").css("left",(-screen*(now-1))+"px").css("transition","left 1s");
@@ -320,7 +320,7 @@ angular.module('starter.controllers', [])
         });
         $scope.yueseRight = function(){
             var nowSide = parseInt($("#main_yuese").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen));
             if(now > 0){
                 $("#back_yuese,#file_yuese").css("display","none");
@@ -339,7 +339,7 @@ angular.module('starter.controllers', [])
         };
         $scope.yueseLeft = function(){
             var nowSide = parseInt($("#main_yuese").css("left"));
-            var screen =parseInt(window.screen.width);
+            var screen =parseInt(document.body.scrollWidth);
             var now = Math.abs(parseInt(nowSide/screen))+2;
             if(now<=4){
                 $("#main_yuese").css("left",(-screen*(now-1))+"px").css("transition","left 1s");
