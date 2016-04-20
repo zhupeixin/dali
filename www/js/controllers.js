@@ -600,6 +600,49 @@ angular.module('starter.controllers', [])
     })
 .controller('show_photoCtrl', function($scope, $state) {
     $("#screen_photo").attr("src","img/"+list+"/"+name+".jpg");
+        var screen_title ="";
+        switch (list){
+            case "andi":
+                switch (name){
+                    case "screen_1":screen_title = "Elizabeth Taylor";break;
+                    case "screen_2":screen_title = "Michael Jackson";break;
+                    case "screen_3":screen_title = "John Lennon";break;
+                    case "screen_4":screen_title = "梦露";break;
+                    case "screen_5":screen_title = "地下丝绒CD封面";break;
+                    case "screen_6":screen_title = "Guns";break;
+                    case "screen_7":screen_title = "Dollar Bills";break;
+                    case "screen_8":screen_title = "罐头";break;
+                }break;
+            case "rang":switch (name){
+                case "screen_1":screen_title = "water pipe";break;
+                case "screen_2":screen_title = "向纽约致敬#2";break;
+                case "screen_3":screen_title = "向纽约致敬#1";break;
+                case "screen_4":screen_title = "旋转掷球机";break;
+                case "screen_5":screen_title = "Black Lily XI";break;
+                case "screen_6":screen_title = "Burning snake#1";break;
+                case "screen_7":screen_title = "祈祷的风车";break;
+                case "screen_8":screen_title = "斯特拉文斯基喷泉 - 局部";break;
+            }break;
+            case "weilian":switch (name){
+                case "screen_1":screen_title = "Untitled (verso Untitled)";break;
+                case "screen_2":screen_title = "Untitled XXVIII";break;
+                case "screen_3":screen_title = "UntitledXI";break;
+                case "screen_4":screen_title = "Untitled #2";break;
+                case "screen_5":screen_title = "Untitled";break;
+                case "screen_6":screen_title = "Untitled X";break;
+                case "screen_7":screen_title = "Untitled XII";break;
+            }break;
+            case "yuese":switch (name){
+                case "screen_1":screen_title = "我不认识周末";break;
+                case "screen_2":screen_title = "Jungfrau";break;
+                case "screen_3":screen_title = "Capri Batterie";break;
+                case "screen_4":screen_title = "博伊斯+统一版本";break;
+                case "screen_5":screen_title = "中国兔子糖";break;
+                case "screen_6":screen_title = "UNtitle";break;
+                case "screen_7":screen_title = "革命的钢琴";break;
+            }break;
+        }
+        $("#screen_title").html(screen_title);
     $scope.goBack = function() {
         history.back();
     }

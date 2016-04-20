@@ -109,4 +109,5 @@
 .video{width: 100%;height: 40%;margin: 2% 1%;}
 /*图片展示页*/
 .bj_443A38{width: 100%;height: 105%;position: absolute;top: 0;left: 0;}
+#screen_title{width:auto;height: 20px;position: absolute;top: 19%;left: 7.075%;color: #ffffff;font-size: 1.2em;}
 #screen_photo{width: 91.85%;height: auto;position: absolute;top: 25.57%;left: 4.075%;border: 5px solid #ffffff}
